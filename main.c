@@ -28,9 +28,9 @@ int main(void)
     printStack(pile);
 
     /*---------------------------------- Supprimer le sommet de la pile ----------------------------------*/
-    sta = popStack(pile);
+    pile = popStack(pile);
 
-    printStack(sta);
+    printStack(pile);
 
     /*--------------------------------- Vider la pile et vérifier  ----------------------------------*/
     clearStack(pile);

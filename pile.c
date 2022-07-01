@@ -38,7 +38,7 @@ stack pushStack(stack st, int x)
 /*--------------------------------- Supprimer un élément de la pile ---------------------------------*/
 stack popStack(stack st)
 {
-    StackElement *element;
+    StackElement *element = next;
 
     if(is_emptyStack(st))
         return newStack();
